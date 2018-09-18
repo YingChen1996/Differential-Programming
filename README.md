@@ -16,8 +16,8 @@ But the important point is that people are now building a new kind of software b
 An increasingly large number of people are defining the networks procedurally in a data-dependent way (with loops and conditionals), allowing them to change dynamically as a function of the input data fed to them. It's really very much like a regular progam, except it's parameterized, automatically differentiated, and trainable/optimizable. Dynamic networks have become increasingly popular (particularly for NLP), thanks to deep learning frameworks that can handle them such as PyTorch and Chainer (note: our old deep learning framework Lush could handle a particular kind of dynamic nets called Graph Transformer Networks, back in 1994. It was needed for text recognition).<br>
 
 People are now actively working on compilers for imperative differentiable programming languages. This is a very exciting avenue for the development of learning-based AI.<br>
-
 Important note: this won't be sufficient to take us to "true" AI. Other concepts will be needed for that, such as what I used to call predictive learning and now decided to call Imputative Learning. More on this later<br>
+
 Papers
 -------
 * Differential Programming
