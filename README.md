@@ -17,7 +17,7 @@ An increasingly large number of people are defining the networks procedurally in
 
 People are now actively working on compilers for imperative differentiable programming languages. This is a very exciting avenue for the development of learning-based AI.<br>
 
-Important note: this won't be sufficient to take us to "true" AI. Other concepts will be needed for that, such as what I used to call predictive learning and now decided to call Imputative Learning. More on this later....<br>
+Important note: this won't be sufficient to take us to "true" AI. Other concepts will be needed for that, such as what I used to call predictive learning and now decided to call Imputative Learning. More on this later<br>
 Papers
 -------
 * Differential Programming
