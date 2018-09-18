@@ -1,9 +1,10 @@
 # Differential-Programming
 关于Differential Programming/Differentiable Programming的论文，文章，教程，幻灯片和项目的列表。
-
+What is differential programming? How is it related to functional programming?
 Papers
 -------
 * Differential Programming
+
   [1]
 * Differentiable Programming
 
@@ -13,6 +14,8 @@ Papers
 slides
 -------
 * Differential Programming
+
   [1]
 * Differentiable Programming
+
   [1][Differentiable Programming](https://www.cs.nuim.ie/~gunes/files/Baydin-MSR-Slides-20160201.pdf)
