@@ -18,11 +18,16 @@ An increasingly large number of people are defining the networks procedurally in
 People are now actively working on compilers for imperative differentiable programming languages. This is a very exciting avenue for the development of learning-based AI.<br>
 Important note: this won't be sufficient to take us to "true" AI. Other concepts will be needed for that, such as what I used to call predictive learning and now decided to call Imputative Learning. More on this later<br>
 
+“Differentiable programming”: This is the idea of viewing a program (or a circuit) as a graph of differentiable modules that can be trained with backprop. This points towards the possibility of not just learning to recognize patterns (as with feed-forward neural nets) but to produce algorithms (with loops, recursion, subroutines, etc). There are a few papers on this from DeepMind, FAIR, and others, but it’s rather preliminary at the moment.
+“差分编程”：这是将程序（或电路）视为可以用backprop训练的可微模块的图形的想法。 这表明不仅可以学习识别模式（如前馈神经网络），还可以生成算法（包括循环，递归，子程序等）。 有较少来自于DeepMind，FAIR和其他的文章，但目前处于初步阶段。
+
 * [Age of AI Talk:Deep Learning est Mort! Vive Differentiable Programming](https://medium.com/amplify-partners/age-of-ai-talk-deep-learning-est-morte-vive-differentiable-programming-6b1a1c9800d8)<br>
 
 * [Neural Networks, Types, and Functional Programming](http://colah.github.io/posts/2015-09-NN-Types-FP/)<br>
 * [Differentiable neural computer](https://en.wikipedia.org/wiki/Differentiable_neural_computer)<br>
 * [Automatic differentiation](https://en.m.wikipedia.org/wiki/Automatic_differentiation)<br>
+* [Introduction to AUTOMATIC DIFFERENTIATION](https://alexey.radul.name/ideas/2013/introduction-to-automatic-differentiation/)
+
 
 Papers
 -------
@@ -45,7 +50,11 @@ Papers
   [6][k-meansNet: When k-means Meets Differentiable Programming](https://arxiv.org/pdf/1808.07292v1.pdf)<br>
   [7][Differentiable Learning of Logical Rules for Knowledge Base Reasoning NIPS 2017](https://papers.nips.cc/paper/6826-differentiable-learning-of-logical-rules-for-knowledge-base-reasoning.pdf)<br>
   [8][Programming With a Differentiable Forth Interpreter](https://openreview.net/pdf?id=HkJq1Ocxl)<br>
+  [9][Efficient Differentiable Programming in a Functional Array-Processing Language](https://arxiv.org/abs/1806.02136)<br>
   
+ * Automatic differentiation
+ [1][Baydin A G, Pearlmutter B A, Radul A A, et al. Automatic differentiation in machine learning: a survey[J]. Computer Science, 2015(February).](https://arxiv.org/abs/1502.05767)<br>
+
   
 slides
 -------
@@ -76,3 +85,4 @@ material
   [2][Tensorlang, a differentiable programming language based on TensorFlow](https://github.com/tensorlang/tensorlang)<br>
   [3][Differentiable programming in Gluon and Python (For not only for medical image analysis)](https://github.com/jmargeta/PyConSK2018)<br>
   [4][torchbearer](https://github.com/ecs-vlc/torchbearer)<br>
+  [5][Computers May Be Closer to Learning Common Sense Than We Think](https://www.huffingtonpost.com/quora/computers-may-be-closer-t_b_11318132.html)<br>
