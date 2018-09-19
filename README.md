@@ -47,7 +47,7 @@ Papers
   [3][Tzu-Mao Li, Michaël Gharbi, Andrew Adams, Frédo Durand, Jonathan Ragan-Kelley. Differentiable Programming for Image Processing and Deep Learning in Halide. ACM Transactions on Graphics 37(4) (Proceedings of ACM SIGGRAPH 2018) ](https://people.csail.mit.edu/tzumao/gradient_halide/)[code](https://github.com/jrk/gradient-halide)<br>
   [4][A Language and Compiler View on Differentiable Programming ICLR 2018 Workshop Track ](https://openreview.net/forum?id=SJxJtYkPG)<br>
   [5][Gaunt A L, Brockschmidt M, Kushman N, et al. Differentiable Programs with Neural Libraries[J]. PMLR.2017.](http://proceedings.mlr.press/v70/gaunt17a.html)<br>
-  [6][k-meansNet: When k-means Meets Differentiable Programming](https://arxiv.org/pdf/1808.07292v1.pdf)<br>
+  [6][k-meansNet: When k-means Meets Differentiable Programming arxiv 2018](https://arxiv.org/pdf/1808.07292v1.pdf)<br>
   [7][Differentiable Learning of Logical Rules for Knowledge Base Reasoning NIPS 2017](https://papers.nips.cc/paper/6826-differentiable-learning-of-logical-rules-for-knowledge-base-reasoning.pdf)<br>
   [8][Programming With a Differentiable Forth Interpreter](https://openreview.net/pdf?id=HkJq1Ocxl)<br>
   [9][Efficient Differentiable Programming in a Functional Array-Processing Language](https://arxiv.org/abs/1806.02136)<br>
