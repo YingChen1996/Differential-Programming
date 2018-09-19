@@ -1,6 +1,6 @@
 # Differential-Programming
 
-关于Differential Programming/Differentiable Programming/DDP的论文，文章，教程，幻灯片和项目的列表。<br>
+关于Differential Programming/Differentiable Programming/DDP/Automatic differentiation/Differentiable neural computer的论文，文章，教程，幻灯片和项目的列表。<br>
 * What is differential programming? How is it related to functional programming?<br>
   Differential programming, also known as Dynamic Differential Programming (DDP) is an optimization procedure for path planning used in control theory and robotics:<br>
   DDP is an algorithm that solves locally-optimal trajectories given a cost function over some space. In essence it works by locally-approximating the cost function at each point in the trajectory. It uses this approximation to finds the optimal change to the trajectory (via a set of actions) that minimizes some cost metric (e.g. cumulative cost). In the limit it converges to the optimal trajectory. [摘自https://www.quora.com/What-is-differential-programming-How-is-it-related-to-functional-programming](https://www.quora.com/What-is-differential-programming-How-is-it-related-to-functional-programming)
@@ -18,6 +18,12 @@ An increasingly large number of people are defining the networks procedurally in
 People are now actively working on compilers for imperative differentiable programming languages. This is a very exciting avenue for the development of learning-based AI.<br>
 Important note: this won't be sufficient to take us to "true" AI. Other concepts will be needed for that, such as what I used to call predictive learning and now decided to call Imputative Learning. More on this later<br>
 
+* [Age of AI Talk:Deep Learning est Mort! Vive Differentiable Programming](https://medium.com/amplify-partners/age-of-ai-talk-deep-learning-est-morte-vive-differentiable-programming-6b1a1c9800d8)<br>
+
+* [Neural Networks, Types, and Functional Programming](http://colah.github.io/posts/2015-09-NN-Types-FP/)<br>
+* [Differentiable neural computer](https://en.wikipedia.org/wiki/Differentiable_neural_computer)<br>
+* [Automatic differentiation](https://en.m.wikipedia.org/wiki/Automatic_differentiation)<br>
+
 Papers
 -------
 * Differential Programming
@@ -27,10 +33,19 @@ Papers
   [3][Pan Y, Theodorou E A. Probabilistic differential dynamic programming[J]. Advances in Neural Information Processing Systems, 2014, 3:1907-1915.](https://papers.nips.cc/paper/5248-probabilistic-differential-dynamic-programming)<br>
   [4][Yamaguchi A, Atkeson C G. Neural networks and differential dynamic programming for reinforcement learning problems[C]// IEEE International Conference on Robotics and Automation. IEEE, 2016.](https://doi.org/10.1109/ICRA.2016.7487755)<br>
   [5][Mayne D Q. Differential Dynamic Programming - A Unified Approach to the Optimization of Dynamic Systems[J]. Control & Dynamic Systems, 1973, 10:179-254.](https://doi.org/10.1016/B978-0-12-012710-8.50010-8)<br>
-  
+  [6][DehazeGAN: When Image Dehazing Meets Differential Programming,IJCAI-18 ](https://doi.org/10.24963/ijcai.2018/172)<br>
+
 * Differentiable Programming
  
   [1][Singh C. Optimality conditions in multiobjective differentiable programming[J]. Journal of Optimization Theory & Applications, 1988, 57(2):369-369.](https://doi.org/10.1007/BF00938820)<br>
+  [2][Wang F, Wu X, Essertel G, et al. Demystifying Differentiable Programming: Shift/Reset the Penultimate Backpropagator[J]. 2018.](https://arxiv.org/abs/1803.10228)<br>
+  [3][Tzu-Mao Li, Michaël Gharbi, Andrew Adams, Frédo Durand, Jonathan Ragan-Kelley. Differentiable Programming for Image Processing and Deep Learning in Halide. ACM Transactions on Graphics 37(4) (Proceedings of ACM SIGGRAPH 2018) ](https://people.csail.mit.edu/tzumao/gradient_halide/)[code](https://github.com/jrk/gradient-halide)<br>
+  [4][A Language and Compiler View on Differentiable Programming ICLR 2018 Workshop Track ](https://openreview.net/forum?id=SJxJtYkPG)<br>
+  [5][Gaunt A L, Brockschmidt M, Kushman N, et al. Differentiable Programs with Neural Libraries[J]. PMLR.2017.](http://proceedings.mlr.press/v70/gaunt17a.html)<br>
+  [6][k-meansNet: When k-means Meets Differentiable Programming](https://arxiv.org/pdf/1808.07292v1.pdf)<br>
+  [7][Differentiable Learning of Logical Rules for Knowledge Base Reasoning NIPS 2017](https://papers.nips.cc/paper/6826-differentiable-learning-of-logical-rules-for-knowledge-base-reasoning.pdf)<br>
+  [8][Programming With a Differentiable Forth Interpreter](https://openreview.net/pdf?id=HkJq1Ocxl)<br>
+  
   
 slides
 -------
@@ -38,6 +53,26 @@ slides
 
   [1][Atkeson_Stephens_Random Sampling of States in Dynamic Programming_NIPS 2007](https://pdfs.semanticscholar.org/presentation/9b05/8eb3539b894d1433113f7f6fee8b8e337a7e.pdf)<br>
   [2][Stochastic Differential Dynamic Programming_Theodorou_ACC2010](https://homes.cs.washington.edu/~todorov/papers/TheodorouACC10.pdf)<br>
+  
 * Differentiable Programming
 
   [1][Differentiable Programming](https://www.cs.nuim.ie/~gunes/files/Baydin-MSR-Slides-20160201.pdf)<br>
+  [2][Tzu-Mao Li, Michaël Gharbi, Andrew Adams, Frédo Durand, Jonathan Ragan-Kelley. Differentiable Programming for Image Processing and Deep Learning in Halide. ACM Transactions on Graphics 37(4) (Proceedings of ACM SIGGRAPH 2018) ](https://people.csail.mit.edu/tzumao/gradient_halide/)<br>
+  [3][Deep learning frameworks and differentiable programming](Deep learning frameworks and differentiable programming)<br>
+  [4][Differentiable Functional Programming](http://www.robots.ox.ac.uk/~gunes/assets/pdf/baydin-2016-slides-functionallondoners.pdf)<br>
+  [5][Getting started with Differentiable Programing](http://nramm.nysbc.org/wp-content/uploads/2018/04/nramm_tegunov.pdf)<br>
+  [6][Deep Learning, differentiable programming, and software 2.0](http://dic.uqam.ca/upload/files/seminaires/Deep%20Learning%20and%20Differentiable%20programming.pdf)<br>
+  
+  
+material
+-------
+* Differential Programming
+
+  [1][Programming of ordinary differential equations](http://hplgit.github.io/primer.html/doc/pub/ode2/ode2-readable.html)<br>
+  
+* Differentiable Programming
+
+  [1][Differentiable Programming: A Semantics Perspective](https://barghouthi.github.io/2018/05/01/differentiable-programming/)<br>
+  [2][Tensorlang, a differentiable programming language based on TensorFlow](https://github.com/tensorlang/tensorlang)<br>
+  [3][Differentiable programming in Gluon and Python (For not only for medical image analysis)](https://github.com/jmargeta/PyConSK2018)<br>
+  [4][torchbearer](https://github.com/ecs-vlc/torchbearer)<br>
