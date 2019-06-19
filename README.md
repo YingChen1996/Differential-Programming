@@ -39,7 +39,12 @@ Papers
   [4][Yamaguchi A, Atkeson C G. Neural networks and differential dynamic programming for reinforcement learning problems[C]// IEEE International Conference on Robotics and Automation. IEEE, 2016.](https://doi.org/10.1109/ICRA.2016.7487755)<br>
   [5][Mayne D Q. Differential Dynamic Programming - A Unified Approach to the Optimization of Dynamic Systems[J]. Control & Dynamic Systems, 1973, 10:179-254.](https://doi.org/10.1016/B978-0-12-012710-8.50010-8)<br>
   [6][DehazeGAN: When Image Dehazing Meets Differential Programming,IJCAI-18 ](https://doi.org/10.24963/ijcai.2018/172)<br>
-
+更新于2019.6.19<br>
+  [7][Zhang_ISTA-Net_Interpretable_Optimization-Inspired_CVPR_2018_paper]
+  [8][ISTA-Net Iterative Shrinkage-Thresholding Algorithm Inspired Deep Network for Image Compressive Sensing]
+  [9][Deep ADMM-Net for Compressive Sensing MRI]
+  [10][Deep Unfolding Model-Based Inspiration of Novel Deep Architectures]
+  [11][Differentiable Linearized ADMM]
 * Differentiable Programming
  
   [1][Singh C. Optimality conditions in multiobjective differentiable programming[J]. Journal of Optimization Theory & Applications, 1988, 57(2):369-369.](https://doi.org/10.1007/BF00938820)<br>
