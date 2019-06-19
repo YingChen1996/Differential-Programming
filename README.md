@@ -45,6 +45,7 @@ Papers
   [9][Deep ADMM-Net for Compressive Sensing MRI]<br>
   [10][Deep Unfolding Model-Based Inspiration of Novel Deep Architectures]<br>
   [11][Differentiable Linearized ADMM]<br>
+  [12][Differentiable Optimization-Based Modeling for Machine Learning ](https://github.com/bamos/thesis)<br>
 * Differentiable Programming
  
   [1][Singh C. Optimality conditions in multiobjective differentiable programming[J]. Journal of Optimization Theory & Applications, 1988, 57(2):369-369.](https://doi.org/10.1007/BF00938820)<br>
